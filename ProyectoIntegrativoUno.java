@@ -57,12 +57,16 @@ public class ProyectoIntegrativoUno{
          *          6.5 Transistores
         */
        final double CM_CUADRADO=0.69;       //  1
+
        final int CAPA_UNO=10, CAPA_DOS=18, MULTICAPAS=86;       //  2
-       int capasTotales;
+       int capasTotales;                                        //  2
+
        final int ACABADO_HASL=18, ACABADO_ENIG=35;      //  4 
-       int acabadoTotal;
+       int acabadoTotal;                                //  4
+
        int ensamble;        //  5
-       String ens;
+       String ens;          //  5
+
        final int RESISTENCIA=25, DIODOS=5, VARISTOR=10, CRISTALES=10, TRANSISTORES=10;      //  6
        int resistencia, diodos, varistor, cristales, transistores;                          //  6
 
@@ -235,7 +239,7 @@ public class ProyectoIntegrativoUno{
         }
     }
     /**
-     * INICIAR EL MÉTODO "SUBFABRIZACIÓN"
+     * INICIAR EL MÉTODO "SUBFABRICACIÓN"
      *  El método sumará los precios de:
      *      1. Componentes
      *      2. Tipo de acabado
